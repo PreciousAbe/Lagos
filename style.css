@@ -1,0 +1,52 @@
+body{
+  background-image: url(images/eko\ bridge.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: white;
+  font-size:50px;
+  text-decoration: transparent;
+
+}
+nav .logo {
+  color: var(--accent-color);
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  letter-spacing: 0.6rem;
+  line-height: 60px;
+  text-shadow: 2px 2px 3px var(--background-color);
+  text-transform: uppercase;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--paragraph-color);
+  cursor: pointer;
+}
+
+
+nav li {
+  display: inline;
+  line-height: 60px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  color: var(--paragraph-color);
+}
+
+nav li.active a,
+nav a:hover {
+  color: whitesmoke;
+  
+}
+
+ul {
+  margin-bottom: 0;
+}
